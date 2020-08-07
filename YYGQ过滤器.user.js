@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         YYGQ过滤器
 // @namespace    SeaLoong
-// @version      0.1
+// @version      0.2
 // @description  过滤网页中一些令人反感和阴阳怪气的词句
 // @author       SeaLoong
 // @include      /https?.+/
@@ -84,10 +84,7 @@ async function filter (node) {
     html = list.join('');
     if (cnt < words.length - 1) text = html.replace(tagReg, '');
   }
-  if (reassign) {
-    console.log(node, html);
-    node.innerHTML = html;
-  }
+  if (reassign) node.innerHTML = html;
   wm.set(node, html);
 }
 
