@@ -7,6 +7,7 @@
 // @include      /https?.+/
 // @grant        none
 // @run-at       document-end
+// @license      MIT License
 // ==/UserScript==
 
 'use strict';
