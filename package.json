@@ -1,0 +1,30 @@
+{
+  "name": "tampermonkeyscripts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "SeaLoong",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.11.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.6.0",
+    "semistandard": "^14.2.3"
+  },
+  "semistandard": {
+    "parser": "babel-eslint",
+    "env": {
+      "browser": true,
+      "es2020": true,
+      "worker": true,
+      "jquery": true,
+      "greasemonkey": true
+    },
+    "ignore": [],
+    "global": []
+  }
+}
