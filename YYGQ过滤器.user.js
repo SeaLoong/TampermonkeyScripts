@@ -2,7 +2,7 @@
 // @name         YYGQ过滤器
 // @namespace    SeaLoong
 // @version      0.1
-// @description  过滤网页中一些令人反感/阴阳怪气的词句
+// @description  过滤网页中一些令人反感和阴阳怪气的词句
 // @author       SeaLoong
 // @include      /https?.+/
 // @grant        none
